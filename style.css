@@ -53,3 +53,24 @@ header {
     display: flex;
 	justify-content: space-between;
 }
+
+.footer {
+    background: #164d7a;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.rs-logo {
+    height: 60px;
+}
+
+.git-logo {
+    height: 60px;
+    padding-left: 40px;
+}
+
+.year {
+    font-size: 20px;
+    color: #fff;
+    font-style: bold;
+}
