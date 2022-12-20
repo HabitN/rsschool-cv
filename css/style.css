@@ -10,8 +10,41 @@ div, p, input, button, form, span, a, ul, li {
 	box-sizing: border-box;
 }
 
-li {
+h1 {
+    font-size: 30px;
+}
+
+p {
+    font-size: 20px;
+}
+
+li, ul, ol {
     line-height: 2em;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+nav {
+    float: left;
+    position: absolute;
+    margin-top: 30px;
+    
+}
+
+.menu {
+    display: inline;
+    margin-left: 25px;
+    color: #fff;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding-left: 0; 
 }
 
 header {
@@ -33,9 +66,10 @@ header {
 }
 
 .name {
-    padding-top: 20px;
     margin-bottom: 20px;
     text-align: center;
+    color: #0d66ae;
+    padding-bottom: 20px;
 }
 .photo {
     height: 300px;
@@ -51,7 +85,12 @@ header {
 
 .vraper {
     display: flex;
-	justify-content: space-between;
+	justify-content:space-around; 
+    
+}
+
+.contacts {
+    margin-top: 30px;
 }
 
 .footer {
@@ -73,4 +112,9 @@ header {
     font-size: 20px;
     color: #fff;
     font-style: bold;
+}
+
+.code {
+    font-family: Courier New;
+    font-size: 22px;
 }
