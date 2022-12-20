@@ -118,3 +118,9 @@ header {
     font-family: Courier New;
     font-size: 22px;
 }
+
+.git {
+    color: #382d88;
+    text-decoration: underline;
+    font-size: 20px;
+}
