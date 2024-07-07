@@ -28,11 +28,15 @@ a {
     color: #fff;
 }
 
-nav {
+.nav {
     float: left;
     position: absolute;
     margin-top: 30px;
-    
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
 }
 
 .menu {
@@ -85,12 +89,13 @@ header {
 
 .vraper {
     display: flex;
-	justify-content:space-around; 
+	justify-content:space-around;
+    align-items: center; 
     
 }
 
 .contacts {
-    margin-top: 30px;
+    margin-top: 0px;
 }
 
 .footer {
