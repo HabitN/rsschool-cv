@@ -1,0 +1,131 @@
+body {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	color: #201b2d;
+	font-size: 16px;
+	padding: 0;
+	margin: 0;
+}
+
+div, p, input, button, form, span, a, ul, li {
+	box-sizing: border-box;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+p {
+    font-size: 20px;
+}
+
+li, ul, ol {
+    line-height: 2em;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav {
+    float: left;
+    position: absolute;
+    margin-top: 30px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu {
+    display: inline;
+    margin-left: 25px;
+    color: #fff;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding-left: 0; 
+}
+
+header {
+    background: rgba(77,189,254,1);
+	background: -moz-linear-gradient(-45deg, rgba(77,189,254,1) 0%, rgba(55,144,217,1) 100%);
+	background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(77,189,254,1)), color-stop(100%, rgba(55,144,217,1)));
+	background: -webkit-linear-gradient(-45deg, rgba(77,189,254,1) 0%, rgba(55,144,217,1) 100%);
+	background: -o-linear-gradient(-45deg, rgba(77,189,254,1) 0%, rgba(55,144,217,1) 100%);
+	background: -ms-linear-gradient(-45deg, rgba(77,189,254,1) 0%, rgba(55,144,217,1) 100%);
+	background: linear-gradient(135deg, rgba(77,189,254,1) 0%, rgba(55,144,217,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4dbdfe', endColorstr='#3790d9', GradientType=1 );
+	color: #fff;
+    height: 90px;
+}
+
+.conteiner {
+	width: 800px;
+	margin: 0 auto;
+}
+
+.name {
+    margin-bottom: 20px;
+    text-align: center;
+    color: #0d66ae;
+    padding-bottom: 20px;
+}
+.photo {
+    height: 300px;
+    border-radius: 8px;
+    box-shadow: 0px 5px 10px 7px rgb(182, 221, 244);
+}
+
+.main {
+    background: #ecf3f8;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.vraper {
+    display: flex;
+	justify-content:space-around;
+    align-items: center; 
+    
+}
+
+.contacts {
+    margin-top: 0px;
+}
+
+.footer {
+    background: #164d7a;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.rs-logo {
+    height: 60px;
+}
+
+.git-logo {
+    height: 60px;
+    padding-left: 40px;
+}
+
+.year {
+    font-size: 20px;
+    color: #fff;
+    font-style: bold;
+}
+
+.code {
+    font-family: Courier New;
+    font-size: 22px;
+}
+
+.git {
+    color: #382d88;
+    text-decoration: underline;
+    font-size: 20px;
+}
